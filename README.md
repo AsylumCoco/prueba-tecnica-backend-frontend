@@ -1,1 +1,1 @@
-# prueba-tecnica-backend-frontend
+Prueba Técnica - Backend (Laravel) y Frontend (React)
