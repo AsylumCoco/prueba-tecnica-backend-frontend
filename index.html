@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Técnica - Frontend</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Formulario de Login -->
+        <div id="login-section">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="email" id="email" placeholder="Correo electrónico" required>
+                <input type="password" id="password" placeholder="Contraseña" required>
+                <button type="submit">Iniciar sesión</button>
+            </form>
+            <p id="login-error" class="error-message"></p>
+        </div>
+
+        <!-- Sección de PokéAPI (Oculta por defecto) -->
+        <div id="home-section" class="hidden">
+            <h2>Lista de Pokémon</h2>
+            <button id="logout">Cerrar sesión</button>
+            <ul id="pokemon-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
